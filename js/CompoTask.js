@@ -23,6 +23,7 @@ class CompoTask {
     /**
      * Retourne la tâche passée en paramètre au constructeur
      */
+    
     getTask() {
         return this.param.task;
     }
