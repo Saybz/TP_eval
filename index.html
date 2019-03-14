@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tests</title>
-    <script src="../node_modules/uuidjs/dist/uuid.core.js"></script>
+    <script src="node_modules/uuidjs/dist/uuid.core.js"></script>
     <script src="js/Task.js"></script>
     <script src="js/TaskList.js"></script>
     <script src="js/CompoTask.js"></script>
     <script src="js/CompoTaskList.js"></script>
     <script defer src="js/main.js"></script>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        #tasks > div{
+            color :Blue;
+            font-size: 150%;
+            width: 5em;
+            height: 2em;
+            border: 2px solid grey;
+            display: flex;
+            justify-content:center;
+            
+        }
+    </style>
 </head>
 <body>
     <div id="tasks"></div>
